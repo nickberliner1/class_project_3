@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+
+
+	  <html>
+
+
+	<head>
+		<title>Films</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="logo"><a href="home.html">Watch <span>It Outside</span></a></div>
+				<a href="#menu">Menu</a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="home.html">Home</a></li>
+					<li><a href="films.html">Films</a></li>
+					<li><a href="announcements.html">Announcements</a></li>
+				</ul>
+			</nav>
+
+		<!-- Main -->
+			<div id="main">
+
+
+<!-- Movie list -->
+
+<section class="wrapper style1">
+		<div class="inner">
+			<header class="align-center">
+				<h2>List of Films</h2>
+			</header>
+			<div class="flex flex-3">
+				<div class="col align-center">
+					<div class="image">
+						<img src="images/Pulp_Fiction_(1994)_poster.jpg" alt="" />
+					</div>
+					<h4>Pulp Fiction</h4>
+					<p>The story of three men and the choices each of them makes regarding life and death, honor and disgrace, and the vagaries of chance.</p>
+					<a href="#" class="button">I want to see this!</a>
+				</div>
+				<div class="col align-center">
+					<div class="image">
+						<img src="images/django.jpg" alt="" />
+					</div>
+					<h4>Django Unchained</h4>
+					<p>With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner</p>
+					<a href="#" class="button">I want to see this!</a>
+				</div>
+				<div class="col align-center">
+					<div class="image">
+						<img src="images/inglorious_basterds.jpg" alt="" />
+					</div>
+					<h4>Inglorious Basterds</h4>
+					<p>A film which tells the fictional story of two plots to assassinate Nazi Germany's political leaders. Written and directed by Quentin Tarantino</p>
+					<a href="#" class="button">I want to see this!</a>
+				</div>
+			</div>
+		</div>
+	</section>
+				
+
+
+<!-- Sign up form-->
+<section class="wrapper style1">
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal"></span>
+  <form class="modal-content" action="/action_page.php">
+	<div class="container">
+		<header class="align-center">
+      <h1>Sign Up</h1>
+	  <p>Please fill in this form to create an account.</p>
+	</header>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signup">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="copyright">
+					<ul class="icons">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-snapchat"><span class="label">Snapchat</span></a></li>
+					</ul>
+					<p>&copy; Untitled. All rights reserved. Design: <a href="https://linkedin.com/in/nickberliner1">Nick Berliner for OpenClassrooms project</a>. Images: <a href="https://unsplash.com">Unsplash</a>.</p>
+				</div>
+			</footer>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			<script>
+					// Get the modal
+					var modal = document.getElementById('id01');
+					
+					// When the user clicks anywhere outside of the modal, close it
+					window.onclick = function(event) {
+						if (event.target == modal) {
+							modal.style.display = "none";
+						}
+					}
+					</script>
+
+	</body>
+</html>
